@@ -14,8 +14,7 @@ function App() {
 				.share({
 					title: 'Web Share API',
 					description: 'A simple Web Share API demo',
-					image: 'https://miro.medium.com/v2/resize:fit:1100/format:webp/1*y6C4nSvy2Woe0m7bWEn4BA.png',
-					url: 'https://example.com',
+					url: 'https://marina-lu.github.io/test-react-app/',
 				})
 				.then(() => console.log('Successful share'))
 				.catch(error => console.log('Error sharing', error));
